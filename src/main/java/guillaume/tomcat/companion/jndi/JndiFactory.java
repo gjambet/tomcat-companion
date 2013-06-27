@@ -8,7 +8,6 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 
 /**
- *
  * @author Guillaume
  */
 public class JndiFactory<T> {

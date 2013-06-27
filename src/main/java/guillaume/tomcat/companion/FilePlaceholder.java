@@ -1,5 +1,5 @@
 
-package guillaume.tomcat.companion.jndi;
+package guillaume.tomcat.companion;
 
 
 public class FilePlaceholder {
@@ -17,5 +17,10 @@ public class FilePlaceholder {
     public void setPath(String path) {
         this.path = path;
     }
-    
+
+    public FilePlaceholder forPath(String path) {
+        this.path = path;
+        return this;
+    }
+
 }

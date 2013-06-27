@@ -6,8 +6,7 @@ import javax.naming.NamingException;
 import javax.naming.Context;
 import javax.naming.InitialContext;
 
-import guillaume.tomcat.companion.jndi.FilePlaceholder;
-import guillaume.tomcat.companion.jndi.JndiFactory;
+import guillaume.tomcat.companion.FilePlaceholder;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
