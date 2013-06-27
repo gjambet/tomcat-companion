@@ -60,6 +60,10 @@
         </plugins>
     </build>
 
+    <scm>
+        <connection>scm:svn:https://github.com/gjambet/tomcat-companion.git</connection>
+        <developerConnection>scm:svn:https://github.com/gjambet/tomcat-companion.git</developerConnection>
+    </scm>
 
     <repositories>
         <repository>
@@ -68,11 +72,6 @@
             <url>http://nexus.oups.net/content/repositories/public/</url>
         </repository>
     </repositories>
-
-    <scm>
-        <connection>scm:svn:https://github.com/gjambet/tomcat-companion.git</connection>
-        <developerConnection>scm:svn:https://github.com/gjambet/tomcat-companion.git</developerConnection>
-    </scm>
 
     <distributionManagement>
         <repository>

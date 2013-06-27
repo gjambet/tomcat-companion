@@ -1,8 +1,6 @@
 
 package guillaume.tomcat.companion.jndi;
 
-import java.io.IOException;
-import javax.naming.ConfigurationException;
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
@@ -16,7 +14,7 @@ public class JndiFactory<T> {
 
     public T getRessource(String key) throws NamingException {
 
-        try{
+        try {
 
             Context initCtx = new InitialContext();
             Context envCtx = (Context) initCtx.lookup(JAVA_COMP_ENV);
