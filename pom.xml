@@ -62,7 +62,7 @@
 
     <scm>
         <connection>scm:git:git://github.com/gjambet/tomcat-companion.git</connection>
-        <developerConnection>scm:git:git://github.com/gjambet/tomcat-companion.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/gjambet/tomcat-companion.git</developerConnection>
     </scm>
 
     <repositories>
